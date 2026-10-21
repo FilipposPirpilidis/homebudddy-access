@@ -18,6 +18,7 @@ dev = [
 asyncio_mode = "auto"
 asyncio_default_fixture_loop_scope = "function"
 testpaths = ["tests"]
+pythonpath = ["."]
 addopts = "-q --strict-markers --disable-socket --allow-unix-socket"
 
 [tool.ruff]
