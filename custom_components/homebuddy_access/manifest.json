@@ -1,0 +1,20 @@
+{
+  "domain": "homebuddy_access",
+  "name": "HomeBuddy Access",
+  "codeowners": [
+    "@FilipposPirpilidis"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "http",
+    "frontend"
+  ],
+  "documentation": "https://github.com/FilipposPirpilidis/homebudddy-access",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/FilipposPirpilidis/homebudddy-access/issues",
+  "requirements": [
+    "segno==1.6.6"
+  ],
+  "version": "1.0.5"
+}

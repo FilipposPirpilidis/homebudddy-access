@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a problem installing or using HomeBuddy Access.
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include tokens, QR codes, authorization headers or private Home Assistant URLs."
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Home Assistant, HomeBuddy Access, HACS and mobile app versions.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include reproduction steps and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs
+      description: Remove secrets before submitting.
+      render: text

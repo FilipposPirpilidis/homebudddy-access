@@ -1,0 +1,15 @@
+.venv/
+.backups/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.coverage
+*.egg-info/
+.DS_Store
+
+# Local development instructions and generated test output
+AGENTS.md
+AGENTS.local.md
+.codex/
+.agents/
+test-results/

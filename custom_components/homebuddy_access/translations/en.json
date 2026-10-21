@@ -1,0 +1,15 @@
+{
+  "title": "HomeBuddy Access",
+  "config": {
+    "step": {
+      "user": {
+        "title": "HomeBuddy Access",
+        "description": "Connect HomeBuddy using a QR with your local or remote Home Assistant address and a long-lived token. Create the token in the owner panel after setup. The QR grants your account access; entity filters only change what the app displays."
+      }
+    },
+    "abort": {
+      "already_configured": "HomeBuddy Access is already configured.",
+      "owner_required": "Only the active Home Assistant owner can set up HomeBuddy Access."
+    }
+  }
+}
